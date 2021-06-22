@@ -22,11 +22,12 @@ html{
     --grey-light: #E5EAF1;
 
     /* O normal é 1rem = 16px (User Agent) = 100% (User Agent)  ----> O padrão passa a ser 10px que fica 1rem quando mudamos o font-size para 62.5% */
-    font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body{
     height: 100vh; /* view height - pega o total da tela*/
+    display: flex;
     background: var(--background);
 }
 
