@@ -18,7 +18,7 @@ html{
 
     --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
-    --grey-medium: #D3D9E2;
+    --grey-medium: #EAECF2;
     --grey-light: #E5EAF1;
 
     /* O normal é 1rem = 16px (User Agent) = 100% (User Agent)  ----> O padrão passa a ser 10px que fica 1rem quando mudamos o font-size para 62.5% */
@@ -55,6 +55,7 @@ body, button, input, textarea{
 }
 
 /*-------- input and buttons -------*/
+
 input, button, .button{
     height: 5rem;
     border-radius: .8rem;
@@ -88,6 +89,19 @@ button.outlined, .button.outlined{
     color: var(--blue);
     border: .2rem solid var(--blue);
 }
+
+button.red, .button.red{
+    background: var(--red);
+    color: var(--white);
+
+}
+
+button.grey, .button.grey{
+    background: var(--grey-light);
+    color: var(--grey-dark);
+}
+
+/* HEADER */
 
 .content header{
     width: 80%;
